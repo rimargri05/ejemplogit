@@ -3,8 +3,26 @@ body {
     color: #faf6f6; /* Color de texto oscuro para buen contraste */
     line-height: 1.6; /* Mejor legibilidad */
 }
+.titulo {
+    text-align: center; /* Centrar el subtítulo */
+    font-family: "playfair display", serif; /* Fuente elegante */
+    font-size: 36px; /* Tamaño de fuente grande */
+    color: #f36e6ee8; /* Color del título */
+    font-size: 36px; /* Tamaño de fuente grande */
+    margin-top: 20px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
+    text-shadow: 0 0px 0px rgba(0, 0, 0, 0.1); /* Sombra sutil para resaltar */
+}
+.subtitulo {
     
-    
+    font-family: "fuente elegante", serif; /* Fuente elegante */
+    color: #f36e6ee8; /* Color del subtítulo */
+    font-size: 28px; /* Tamaño de fuente mediano */
+    margin-top: 15px; /* Espacio superior */
+    margin-bottom: 15px; /* Espacio inferior */
+    text-shadow: 0 0px 0px rgba(0, 0, 0, 0.1); /* Sombra sutil para resaltar */
+}
+
 .galeria {
     display: flex;
     flex-wrap: wrap;
