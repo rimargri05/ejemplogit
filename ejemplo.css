@@ -5,3 +5,24 @@ body {
 }
     
     
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centrar las imágenes */
+}
+.imagene-link {
+    margin: 10px; /* Espacio alrededor de los enlaces */
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+}
+    .galeria a img {
+        width: 300px; /* Ancho de las imágenes */
+    max-width: 0%; /* Ancho máximo de las imágenes */
+    height: 200px; /* Altura de las imágenes */
+    object-fit: cover;/* Bordes redondeados */
+    margin: 10px; /* Espacio alrededor de las imágenes */
+    }
+    .imagene-link img:hover {
+        transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+        transition: transform 0.3s; /* Transición suave */
+    }
