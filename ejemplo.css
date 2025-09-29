@@ -1,18 +1,66 @@
 body {
-    background-color: #f1cebe; /* Color de fondo claro */
-    color: #faf6f6; /* Color de texto oscuro para buen contraste */
-    line-height: 1.6; /* Mejor legibilidad */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf7;
+    text-align: center;
 }
-.titulo {
-    text-align: center; /* Centrar el subtítulo */
-    font-family: "playfair display", serif; /* Fuente elegante */
-    font-size: 36px; /* Tamaño de fuente grande */
-    color: #f36e6ee8; /* Color del título */
-    font-size: 36px; /* Tamaño de fuente grande */
-    margin-top: 20px; /* Espacio superior */
-    margin-bottom: 20px; /* Espacio inferior */
-    text-shadow: 0 0px 0px rgba(0, 0, 0, 0.1); /* Sombra sutil para resaltar */
+
+/* Contenedor principal del logo y título */
+.logo-container {
+    padding: 20px;
 }
+
+/* Logo + Título en fila */
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Imagen del logo */
+.logo {
+  width: 60px;   /* Ajusta el tamaño */
+    height: auto;
+}
+
+/* Título */
+.title {
+    font-size: 2rem;
+  color: #e9967a;  /* tono salmón */
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Slogan */
+.slogan {
+    font-size: 1rem;
+    color: #555;
+    margin: 8px 0;
+}
+
+/* Línea decorativa */
+.divider {
+    border: none;
+    border-top: 2px solid #e9967a;
+    width: 80%;
+    margin: 15px auto;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .logo-title {
+    flex-direction: column;
+}
+.title {
+    font-size: 1.5rem;
+}
+.slogan {
+    font-size: 0.9rem;
+}
+}
+
 .subtitulo {
     
     font-family: "fuente elegante", serif; /* Fuente elegante */
