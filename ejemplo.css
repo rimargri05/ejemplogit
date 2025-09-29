@@ -1,0 +1,94 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf7;
+    text-align: center;
+}
+
+/* Contenedor principal del logo y título */
+.logo-container {
+    padding: 20px;
+}
+
+/* Logo + Título en fila */
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Imagen del logo */
+.logo {
+  width: 60px;   /* Ajusta el tamaño */
+    height: auto;
+}
+
+/* Título */
+.title {
+    font-size: 2rem;
+  color: #e9967a;  /* tono salmón */
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Slogan */
+.slogan {
+    font-size: 1rem;
+    color: #555;
+    margin: 8px 0;
+}
+
+/* Línea decorativa */
+.divider {
+    border: none;
+    border-top: 2px solid #e9967a;
+    width: 80%;
+    margin: 15px auto;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .logo-title {
+    flex-direction: column;
+}
+.title {
+    font-size: 1.5rem;
+}
+.slogan {
+    font-size: 0.9rem;
+}
+}
+
+.subtitulo {
+    
+    font-family: "fuente elegante", serif; /* Fuente elegante */
+    color: #f36e6ee8; /* Color del subtítulo */
+    font-size: 28px; /* Tamaño de fuente mediano */
+    margin-top: 15px; /* Espacio superior */
+    margin-bottom: 15px; /* Espacio inferior */
+    text-shadow: 0 0px 0px rgba(0, 0, 0, 0.1); /* Sombra sutil para resaltar */
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centrar las imágenes */
+}
+.imagene-link {
+    margin: 10px; /* Espacio alrededor de los enlaces */
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+}
+    .galeria a img {
+        width: 300px; /* Ancho de las imágenes */
+    max-width: 0%; /* Ancho máximo de las imágenes */
+    height: 200px; /* Altura de las imágenes */
+    object-fit: cover;/* Bordes redondeados */
+    margin: 10px; /* Espacio alrededor de las imágenes */
+    }
+    .imagene-link img:hover {
+        transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+        transition: transform 0.3s; /* Transición suave */
+    }
