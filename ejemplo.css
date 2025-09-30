@@ -1,3 +1,21 @@
+/* estilos.css */
+
+.logo {
+  width: 200px;
+  height: auto;
+  color: #333; /* Color base del logo */
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  color: #e91e63; /* Color al hacer hover */
+}
+
+.logo path {
+  fill: currentColor;
+}
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
