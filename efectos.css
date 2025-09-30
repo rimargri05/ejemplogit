@@ -1,59 +1,50 @@
 /* estilos.css */
-
-.logo {
-  width: 200px;
-  height: auto;
-  color: #333; /* Color base del logo */
-  transition: transform 0.3s ease, color 0.3s ease;
-  cursor: pointer;
+.card img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+    transition:transform 0.35s ease, filter 0.35s ease, opacity 0.35s ease;
 }
 
-.logo:hover {
-  transform: scale(1.1);
-  color: #e91e63; /* Color al hacer hover */
-}
-
-.logo path {
-  fill: currentColor;
-}
 body {
-    font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #fffaf7;
-    text-align: center;
+    font-family: fantasy;
+    background-color: rgba(244, 214, 168, 0.636);
+    color: rgb(83, 36, 2);
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+.title {
+    font-size: clamp(1.6rem, 3.5vw, 3 rem);
+    margin: 2;
+    font-weight: 700;
+    background: linear-gradient(90deg, rgb(245, 176, 142), rgb(249, 158, 112), rgb(244, 117, 54), rgb(251, 87, 6));
+    background-size: 200% 200%;
+    background-clip: text;
+    color: transparent;
+    transition: background-position 0.6s ease;
+    cursor: default;
+}
+.title:hover {
+    background-position: 100% 0;
 }
 
-/*vanesa hoy*/
-/*hokla*/
-
-/* Contenedor principal del logo y título */
-.logo-container {
-    padding: 20px;
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
 }
-
-/* Logo + Título en fila */
-.logo-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-/* Imagen del logo */
-.logo {
-  width: 60px;   /* Ajusta el tamaño */
-    height: auto;
-}
-
 /* Título */
 .title {
     font-size: 2rem;
-  color: #e9967a;  /* tono salmón */
+    color: #e9967a;  /* tono salmón */
     margin: 0;
     font-weight: 600;
 }
-
 /* Slogan */
 .slogan {
     font-size: 1rem;
