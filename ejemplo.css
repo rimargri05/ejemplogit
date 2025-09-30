@@ -91,4 +91,4 @@ body {
     .imagene-link img:hover {
         transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
         transition: transform 0.3s; /* Transición suave */
-    }
+    }/* Transición suave */
