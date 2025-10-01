@@ -6,6 +6,11 @@
       padding: 10;
     }
 
+    .gallery {
+      justify-content: center;
+      gap: 20px;
+      padding: 50px;  
+     }   
     .container {
       display: flex;
       justify-content: center;
@@ -14,7 +19,7 @@
     }
 
     .card {
-      background: #ffffff;
+      background: rgb(243, 217, 204);
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
       text-align: center;
@@ -36,13 +41,13 @@
     }
 
     .card h2 {
-      color: #777;
+      color: #e97c5d;
       margin-bottom: 10px;
     }
 
     .card p {
       font-size: 14px;
-      color: #555;
+      color: #e97c5d;
     }
     .card img {
     width:50%;
